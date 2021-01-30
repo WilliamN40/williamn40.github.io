@@ -1,0 +1,48 @@
+
+<link rel="stylesheet" href="rso-login-page.css" />
+<body>
+<div class="grid grid-direction__row grid-page-web__content">
+    <div class="grid grid-direction__column grid-page-web__wrapper">
+        <div class="grid grid-direction__column grid-size-17 grid-panel-web grid-panel grid-panel-web-has-links">
+            <div class="grid-panel-web__header"><h5 class="heading text__web-h5 grid-panel-web__title" data-testid="panel-title">Sign In</h5></div>
+            <div class="grid grid-align-center grid-justify-space-between grid-fill grid-direction__column grid-panel-web__content grid-panel__content">
+                <div class="grid grid-fill grid-direction__column text__web-body2">
+                    <div class="grid grid-align-center grid-justify-space-between grid-fill grid-direction__column">
+                        <div class="grid grid-fill grid-direction__column">
+                            <div class="field field--focus field--animate">
+                                <div class="field__input field__input--animate">
+                                    <input name="username" spellcheck="false" data-testid="input-username" class="field__form-input text__ignore-subset" type="text" autocomplete="on" value="" /><label class="field__label">Username</label>
+                                    <span class="field__placeholder">Username</span>
+                                </div>
+                            </div>
+                            <div class="field password-field field--animate" style="animation-delay: 0.1s;">
+                                <div class="field__input field__input--animate" style="animation-delay: 0.1s;">
+                                    <input name="password" data-testid="input-password" class="field__form-input text__ignore-subset" type="password" autocomplete="off" value="" /><label class="field__label">Password</label>
+                                    <span class="field__placeholder">Password</span>
+                                </div>
+                                <button type="button" tabindex="-1" class="password-field__password-visibility--hide password-field__password-visibility" style="animation-delay: 0.1s;"></button>
+                            <div class="grid grid-justify-space-between grid-direction__row">
+                                <div class="mobile-checkbox signin-checkbox">
+                                    <label class="signin-checkbox mobile-checkbox__label">
+                                        <input type="checkbox" data-testid="checkbox-remember-me" value="1" /><span class="mobile-checkbox__image"></span><span class="mobile-checkbox__text">Stay signed in</span>
+                                    </label>
+                                </div>
+                                <div class="grid grid-justify-center grid-direction__column"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="mobile-button mobile-button__submit mobile-button__submit--disabled" disabled="" data-testid="btn-signin-submit" title="Sign In"></button>
+            <div class="grid grid-align-center grid-direction__column grid-panel__links grid-panel-web__links text__web-link" data-testid="panel-links">
+                <a href="https://recovery.riotgames.com/en?region=BR1" data-testid="cant-sign-in">Can't sign in?</a><a href="https://signup.br.leagueoflegends.com/en" target="_blank" data-testid="signup-external-link">Create Account</a>
+            </div>
+        </div>
+    </div>
+    <div class="text__web-caption grid-page-web__content-footer">
+        This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy?hl=en_US" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and
+        <a href="https://policies.google.com/terms?hl=en_US" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+    </div>
+</div>
+
+</body>
